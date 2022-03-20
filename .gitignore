@@ -1,0 +1,4 @@
+src/obj/
+src/bin/
+*/.vs/
+src/properties.props
