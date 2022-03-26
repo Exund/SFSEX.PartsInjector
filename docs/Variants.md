@@ -25,7 +25,7 @@ A variant holds its own pick categories in `tags` defined as a `PickTag[]` and i
 ## Variable
 `Variable` holds the name of the variable to change in `name` defined as a `string` and the type of the variable in `type` defined as a `Variable.ValueType`.
 
-It also holds the new value of the variable in a different fields depending on `type`.
+It also holds the new value of the variable in different fields depending on `type`.
 
 | Field | Type | Value of `type` |
 |-|-|-|
@@ -33,7 +33,7 @@ It also holds the new value of the variable in a different fields depending on `
 | `toggleValue` | `bool` | `ValueType.Toggle` |
 | `textValue` | `string` | `ValueType.Text` |
 
-## Fields Summary
+## Fields summary
 ### SFS.Parts.Modules.Variants
 | Name | Type | Description | 
 |-|-|-|

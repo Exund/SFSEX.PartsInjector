@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="svg8" version="1.1" viewBox="0 0 1024 1024">
+  <defs id="defs2">
+    <marker id="marker42234" orient="auto" overflow="visible" refX="0.0" refY="0.0">
+      <path id="path42232" fill="context-stroke" fill-rule="evenodd" stroke="context-stroke" stroke-width="1pt" d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z" transform="scale(-0.4)"/>
+    </marker>
+    <marker id="TriangleOutM" orient="auto" overflow="visible" refX="0.0" refY="0.0">
+      <path id="path36696" fill="context-stroke" fill-rule="evenodd" stroke="context-stroke" stroke-width="1pt" d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z" transform="scale(0.4)"/>
+    </marker>
+    <marker id="TriangleOutM-5" orient="auto" overflow="visible" refX="0" refY="0">
+      <path id="path36696-0" fill="context-stroke" fill-rule="evenodd" stroke="context-stroke" stroke-width="1pt" d="M 5.77,0 -2.88,5 V -5 Z" transform="scale(0.4)"/>
+    </marker>
+    <marker id="TriangleOutM-5-9" orient="auto" overflow="visible" refX="0" refY="0">
+      <path id="path36696-0-0" fill="context-stroke" fill-rule="evenodd" stroke="context-stroke" stroke-width="1pt" d="M 5.77,0 -2.88,5 V -5 Z" transform="scale(0.4)"/>
+    </marker>
+    <marker id="marker42234-8" orient="auto" overflow="visible" refX="0" refY="0">
+      <path id="path42232-8" fill="context-stroke" fill-rule="evenodd" stroke="context-stroke" stroke-width="1pt" d="M 5.77,0 -2.88,5 V -5 Z" transform="scale(-0.4)"/>
+    </marker>
+    <marker id="TriangleOutM-5-9-4" orient="auto" overflow="visible" refX="0" refY="0">
+      <path id="path36696-0-0-0" fill="context-stroke" fill-rule="evenodd" stroke="context-stroke" stroke-width="1pt" d="M 5.77,0 -2.88,5 V -5 Z" transform="scale(0.4)"/>
+    </marker>
+  </defs>
+  <rect id="rect24570" width="1024" height="1024" x="-0.63134485" y="1.1364222" fill="#fff" fill-opacity="1" stroke="#000" stroke-dasharray="none" stroke-miterlimit="4" stroke-opacity="1" stroke-width="0"/>
+  <path id="rect844" fill="#fff" stroke="#000" stroke-dasharray="none" stroke-miterlimit="4" stroke-width="8" d="M 35.113274,314.64433 324.34128,707.31382 535.21715,504.87456 396.88673,314.64433 H 216 Z"/>
+  <path id="path24685" fill="none" stroke="#000" stroke-dasharray="12, 4" stroke-dashoffset="0" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-opacity="1" stroke-width="4" d="M 216,1024 V 5e-7"/>
+  <path id="path24685-1-7-5" fill="none" stroke="#000" stroke-dasharray="none" stroke-dashoffset="0" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-opacity="1" stroke-width="1" d="M 324.34128,1025.1364 V 712.82108"/>
+  <path id="path24685-1-7-5-4" fill="none" stroke="#000" stroke-dasharray="none" stroke-dashoffset="0" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-opacity="1" stroke-width="1" d="m 539.83713,1025.1364 0,-520.26184"/>
+  <path id="path24685-1-7-5-2" fill="none" stroke="#000" stroke-dasharray="none" stroke-dashoffset="0" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-opacity="1" stroke-width="1" d="m 1023.3687,504.87456 -483.53157,0"/>
+  <path id="path24685-1-7-5-4-4" fill="none" stroke="#000" stroke-dasharray="none" stroke-dashoffset="0" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-opacity="1" stroke-width="1" d="m 1023.3687,712.82108 -699.02742,0"/>
+  <path id="path24685-2" fill="none" stroke="#000" stroke-dasharray="12, 4" stroke-dashoffset="0" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-opacity="1" stroke-width="4" d="M 0,812 H 1024"/>
+  <g id="g50479" transform="translate(472.15543,-97.764898)">
+    <path id="path25259" fill="none" stroke="#000" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-opacity="1" stroke-width="3.4" marker-end="url(#TriangleOutM)" marker-start="url(#marker42234)" d="M 324.2082,612.7961 V 800.48853"/>
+    <text xml:space="preserve" id="text25263" x="281.45868" y="753.22192" font-family="Arial" font-size="24px" style="line-height:1.25;-inkscape-font-specification:Arial"><tspan id="tspan26237" x="281.45868" y="753.22192" fill="#000" fill-opacity="1" stroke="none" font-size="24px" font-style="normal" font-weight="400" letter-spacing="0" style="line-height:125%;text-align:center" text-anchor="middle" word-spacing="0">width.y</tspan></text>
+  </g>
+  <g id="g57250" transform="translate(-4.5942274,763.16241)">
+    <g id="g56917" transform="translate(30.57144,222.03153)">
+      <path id="path25259-5-2-1" fill="none" stroke="#000" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-opacity="1" stroke-width="3.4" marker-end="url(#TriangleOutM-5-9-4)" marker-start="url(#marker42234-8)" d="M 503.72398,-111.42892 H 308.54903"/>
+      <text xml:space="preserve" id="text25263-8-6-5" x="-405.83047" y="604.30847" font-family="Arial" font-size="24px" style="line-height:1.25;-inkscape-font-specification:Arial;white-space:pre;inline-size:0" transform="translate(801.27566,-724.07119)"><tspan id="tspan26237-4-8-7" x="-405.83047" y="604.30847" fill="#000" fill-opacity="1" stroke="none" font-size="24px" font-style="normal" font-weight="400" letter-spacing="0" style="line-height:125%;text-align:center" text-anchor="middle" word-spacing="0">width.x</tspan></text>
+    </g>
+  </g>
+  <g id="g50469" font-family="Arial" font-size="32px" transform="translate(-296,-0.16265869)">
+    <text xml:space="preserve" id="text49840" x="491.41724" y="839.65302" style="line-height:1.25;-inkscape-font-specification:Arial"><tspan id="tspan49838" x="491.41724" y="839.65302">0</tspan></text>
+    <text xml:space="preserve" id="text49840-6" x="514.98901" y="807.28168" style="line-height:1.25;-inkscape-font-specification:Arial"><tspan id="tspan49838-7" x="514.98901" y="807.28168">0</tspan></text>
+  </g>
+  <g id="g12092" transform="translate(-296.00001,-26.640828)">
+    <path id="rect3215" fill="#fff" stroke="red" stroke-dasharray="none" stroke-miterlimit="4" stroke-opacity="1" stroke-width="2" d="m 725.77914,623.30715 1.7e-4,18.85574 m 9.42778,-9.42779 -18.85573,-1.6e-4"/>
+    <text xml:space="preserve" id="text9031" x="602.3714" y="641.00848" font-family="Arial" font-size="32px" style="line-height:1.25;-inkscape-font-specification:Arial"><tspan id="tspan9029" x="602.3714" y="641.00848" fill="red" fill-opacity="1">position</tspan></text>
+  </g>
+</svg>

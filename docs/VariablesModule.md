@@ -1,17 +1,17 @@
 # VariablesModule
 > Note: most classes discussed here are defined in `SFS.Variables`
 
-A very important component that is used all across the part system is `VariablesModule` defined in `SFS.Variables.VariablesModule`.
+`SFS.Variables.VariablesModule` is a very important component that is used all across the part system.
 
-This component is used to store string, boolean or double/float variables that can be used by other part modules.
+It is used to store string, boolean or double/float variables that can be used by other part modules.
 
-It needs to be referenced in the `Part` component of a part by assigning `part.variablesModule`.
+It needs to be referenced in the `Part` component of a part by assigning its `variablesModule`.
 
 ## Adding variables
 New variables can be defined using the `SetValue` method on one of the `VariableList<T>` of the variables module. There are currently 3 variables lists:
-- stringVariables
 - doubleVariables
 - boolVariables
+- stringVariables
 
 The signature of `SetValue` depends on the type `T` of the variable list but follow the structure: 
 ```csharp
@@ -27,3 +27,11 @@ Example: the `mass` of the `Part` of a strut is defined as `size * 0.1`.
 
 `ReferenceVariable<T>` are used to directly reference the value of a variable without further operations. 
 Example: the `colorTextureName` of the `SkinModule` of a  fuel tank is set to a `String_Reference` that points to a variable named `color_tex`.
+
+## Fields summary
+### SFS.Variables.VariablesModule
+| Name | Type | Description | 
+|-|-|-|
+| `doubleVariables` | `SFS.Variables.DoubleVariableList` | `double` variables |
+| `boolVariables` | `SFS.Variables.BoolVariableList` | `bool` variables |
+| `stringVariables` | `SFS.Variables.StringVariableList` | `string` variables |
