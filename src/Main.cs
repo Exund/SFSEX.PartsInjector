@@ -25,7 +25,7 @@ namespace SFSEX.PartsInjector
 
             Loc.OnChange += () =>
             {
-                foreach (var (fieldRef, field, _) in SFSEX.PartsInjector.Utils.Translations.translations.Values)
+                foreach (var (fieldRef, field, _) in Utils.Translations.translations.Values)
                 {
                     Loc.fields[fieldRef] = field;
                 }
@@ -34,8 +34,6 @@ namespace SFSEX.PartsInjector
 
         public override void load()
         {
-            Injector.Ready.Invoke();
-            Injector.InjectParts();
         }
 
         public override void unload()

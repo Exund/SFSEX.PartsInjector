@@ -14,8 +14,6 @@ namespace SFSEX.PartsInjector
     {
         private static Dictionary<string, Part> customParts = new Dictionary<string, Part>();
 
-        public static Action Ready;
-
         public static void RegisterPart(Part part)
         {
             if (customParts.ContainsKey(part.name))
@@ -24,35 +22,29 @@ namespace SFSEX.PartsInjector
                 return;
             }
 
+            var parts = Base.partsLoader.parts;
+            if (parts.ContainsKey(part.name))
+            {
+                Debug.LogWarning($"Custom Part \"{part.name}\" not injected due to conflict with existing part");
+                return;
+            }
+
             GameObject.DontDestroyOnLoad(part);
 
             customParts.Add(part.name, part);
-        }
+            parts.Add(part.name, part);
 
-        internal static void InjectParts()
-        {
-            var parts = Base.partsLoader.parts;
             var variants = Base.partsLoader.partVariants;
-
-            foreach (Part part in customParts.Values)
+            for (int i = 0; i < part.variants.Length; i++)
             {
-                if (parts.ContainsKey(part.name))
+                for (int j = 0; j < part.variants[i].variants.Length; j++)
                 {
-                    Debug.LogWarning($"Custom Part \"{part.name}\" not injected due to conflict with existing part");
-                    continue;
-                }   
-
-                for (int i = 0; i < part.variants.Length; i++)
-                {
-                    for (int j = 0; j < part.variants[i].variants.Length; j++)
-                    {
-                        VariantRef variantRef = new VariantRef(part, i, j);
-                        variants.Add(variantRef.GetNameID(), variantRef);
-                    }
+                    VariantRef variantRef = new VariantRef(part, i, j);
+                    variants.Add(variantRef.GetNameID(), variantRef);
                 }
-
-                Debug.Log($"Custom Part \"{part.name}\" injected");
             }
+
+            Debug.Log($"Custom Part \"{part.name}\" injected");
         }
     }
 }
