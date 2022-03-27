@@ -179,11 +179,11 @@ namespace Example
 
             /*
             // Parts can also be created by cloning existing parts
-            var reference = Base.partsLoader.parts["Strut"];
+            var reference = Base.partsLoader.parts["Strut"].gameObject;
             reference.SetActive(false); // Not technically required but creates some issues with some components when the object is active
 
-            var part = UnityEngine.Object.Instantiate(reference);
-            var gameobject = part.gameObject;
+            var gameobject = UnityEngine.Object.Instantiate(reference);
+            var part = gameobject.GetComponent<Part>();
 
             // Rest of the configuration ... 
             */
