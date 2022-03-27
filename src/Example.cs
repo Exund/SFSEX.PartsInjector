@@ -182,7 +182,7 @@ namespace Example
             var reference = Base.partsLoader.parts["Strut"];
             reference.SetActive(false); // Not technically required but creates some issues with some components when the object is active
 
-            var part = UnityEngine.Object.Instantiate(reference).gameObject;
+            var part = UnityEngine.Object.Instantiate(reference);
             var gameobject = part.gameObject;
 
             // Rest of the configuration ... 
