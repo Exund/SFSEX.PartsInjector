@@ -43,6 +43,7 @@ namespace Example
             // Create a new game object for the part
             var gameobject = new GameObject("Example"); // Unique name can be wither set by creating a new game object or setting it later with "name"
             gameobject.SetActive(false); // Not technically required but creates some issues with some components when the object is active
+            gameobject.layer = LayerMask.NameToLayer("Parts");
 
             // Add a part component
             Part p = gameobject.AddComponent<Part>();
