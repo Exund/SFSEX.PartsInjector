@@ -38,6 +38,8 @@ namespace SFSEX.PartsInjector.Utils
 
             translations.Add(name, (fieldRef, translation, transVar));
 
+            Loc.fields[fieldRef] = translation;
+
             return transVar;
         }
 
