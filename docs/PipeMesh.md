@@ -3,7 +3,7 @@
 
 `SFS.Parts.Modules.PipeMesh` is one of the components used to generate the parts meshes. It references pipe data in `pipeData` defined as a `PipeData` and holds the texture mapping data in `textures` defined as a `Textures` as well as the color tinting data in `colors` defined as a `Colors`.
 
-> See [PipeData](./Pipes/PipeData.md) for more info
+> See [PipeData](./SurfaceData/PolygonData/PipeData/PipeData.md) for more info
 
 ## Textures
 `Textures` holds texture mapping data. The configuration mode is stored in `textureMode` defined as a `Mode`.
@@ -61,14 +61,14 @@ The color tinting data is stored in different fields depending on the value of `
 
 ## Fields summary
 ### SFS.Parts.Modules.PipeMesh
-| Name | Type | Description | 
+| Name | Type | Description |
 |-|-|-|
 | `pipeData` | `SFS.Parts.Modules.PipeData` | Reference to a `PipeData` component |
 | `textures` | `SFS.Parts.Modules.Textures` | Texture mapping data |
 | `colors` | `SFS.Parts.Modules.Colors` | Color tinting data |
 
 ### SFS.Parts.Modules.Textures
-| Name | Type | Description | 
+| Name | Type | Description |
 |-|-|-|
 | `textureMode` |  `SFS.Parts.Modules.Mode` | Configuration mode |
 | `texture` | `SFS.Parts.Modules.Textures.TextureSelector` | Single texture config |
@@ -77,45 +77,45 @@ The color tinting data is stored in different fields depending on the value of `
 | `width` | `SFS.Variables.Composed_Float` | Manually defined texture width |
 
 ### SFS.Parts.Modules.Textures.WidthMode
-| Name | Value | 
+| Name | Value |
 |-|-|
 | `Standard` | 0 |
 | `Composed` | 1 |
 
 ### SFS.Parts.Modules.Textures.TextureSelector
-| Name | Type | Description | 
+| Name | Type | Description |
 |-|-|-|
 | `colorTexture` | `SFS.Parts.ColorTexture` | Color texture |
 | `shapeTexture` | `SFS.Parts.ShapeTexture` | Shape texture |
 
 ### SFS.Parts.Modules.Textures.TextureKey
-| Name | Type | Description | 
+| Name | Type | Description |
 |-|-|-|
 | `texture` | `SFS.Parts.Modules.Textures.TextureSelector` | Texture data |
 | `height` | `float` | Texture height |
 
 ### SFS.Parts.Modules.Colors
-| Name | Type | Description | 
+| Name | Type | Description |
 |-|-|-|
 | `mode` |  `SFS.Parts.Modules.Mode` | Configuration mode |
 | `color` | `SFS.Parts.Modules.Colors.ColorSelector` | Single color config |
 | `colors` | `SFS.Parts.Modules.Colors.ColorKey[]` | Multi color config |
 
 ### SFS.Parts.Modules.Colors.ColorSelector
-| Name | Type | Description | 
+| Name | Type | Description |
 |-|-|-|
 | `type` | `SFS.Parts.Modules.Colors.ColorSelector.Type` | Configuratioon mode |
 | `colorBasic` | `UnityEngine.Color` | Direct color |
 | `colorModule` | `SFS.Parts.Modules.ColorModule` | Color provider |
 
 ### SFS.Parts.Modules.Colors.ColorSelector.Type
-| Name | Value | 
+| Name | Value |
 |-|-|
 | `Local` | 0 |
 | `Module` | 1 |
 
 ### SFS.Parts.Modules.Colors.ColorKey
-| Name | Type | Description | 
+| Name | Type | Description |
 |-|-|-|
 | `color` | `SFS.Parts.Modules.Colors.ColorSelector` | Color tinting data |
 | `height` | `float` | Color height |
