@@ -31,7 +31,8 @@ The different variants of a part are stored in `variants` defined as a `SFS.Part
 > See [Variants](./Variants.md) for explaination
 
 ## Fields summary
-| Name | Type | Description | 
+### SFS.Parts.Part
+| Name | Type | Description |
 |-|-|-|
 | `name` | `string` | GameObject name (must be unique for every part) |
 | `displayName` | `SFS.Translations.TranslationVariable` | |

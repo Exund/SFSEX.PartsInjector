@@ -15,13 +15,13 @@ The actual values for impact tolerance are defined as the max relative velocity 
 | `ImpactTolerance.Wheel` | 50.5 |
 
 ## Fields summary
-### SFS.Modules.Parts.ColliderModule
-| Name | Type | Description | 
+### SFS.Parts.Modules.ColliderModule
+| Name | Type | Description |
 |-|-|-|
-| `impactTolerance` | `SFS.Modules.Parts.ColliderModule.ImpactTolerance` | Impact tolerance |
+| `impactTolerance` | `SFS.Parts.Modules.ColliderModule.ImpactTolerance` | Impact tolerance |
 
-### SFS.Modules.Parts.ColliderModule.ImpactTolerance
-| Name | Value | 
+### SFS.Parts.Modules.ColliderModule.ImpactTolerance
+| Name | Value |
 |-|-|
 | `Low` | 0 |
 | `Medium` | 1 |

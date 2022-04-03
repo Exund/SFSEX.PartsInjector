@@ -35,25 +35,25 @@ It also holds the new value of the variable in different fields depending on `ty
 
 ## Fields summary
 ### SFS.Parts.Modules.Variants
-| Name | Type | Description | 
+| Name | Type | Description |
 |-|-|-|
 | `tags` | `SFS.Parts.Modules.Variants.PickTag[]` | Inventory categories for all variants in this variant group |
 | `variants` | `SFS.Parts.Modules.Variants.Variant[]` | Variants data |
 
 ### SFS.Parts.Modules.Variants.PickTag
-| Name | Type | Description | 
+| Name | Type | Description |
 |-|-|-|
 | `tag` | `SFS.Builds.PickCategory` | Inventory category |
 | `priority` | `int` | Priority of the part in the inventory (determines position) |
 
 ### SFS.Parts.Modules.Variants.Variant
-| Name | Type | Description | 
+| Name | Type | Description |
 |-|-|-|
 | `tags` | `SFS.Parts.Modules.Variants.PickTag[]` | Inventory categories for this variant |
 | `changes` | `SFS.Parts.Modules.Variants.Variable[]` | Variables changes |
 
 ### SFS.Parts.Modules.Variants.Variable
-| Name | Type | Description | 
+| Name | Type | Description |
 |-|-|-|
 | `name` | `string` | Name of the variable to change |
 | `type` | `Variants.Variable.ValueType` | Type of the variable to change |
@@ -62,7 +62,7 @@ It also holds the new value of the variable in different fields depending on `ty
 | `textValue` | `string` | |
 
 ### SFS.Parts.Modules.Variants.Variable.ValueType
-| Name | Value | 
+| Name | Value |
 |-|-|
 | `Number` | 0 |
 | `Toggle` | 1 |

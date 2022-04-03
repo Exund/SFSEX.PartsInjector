@@ -30,7 +30,7 @@ Example: the `colorTextureName` of the `SkinModule` of a  fuel tank is set to a 
 
 ## Fields summary
 ### SFS.Variables.VariablesModule
-| Name | Type | Description | 
+| Name | Type | Description |
 |-|-|-|
 | `doubleVariables` | `SFS.Variables.DoubleVariableList` | `double` variables |
 | `boolVariables` | `SFS.Variables.BoolVariableList` | `bool` variables |

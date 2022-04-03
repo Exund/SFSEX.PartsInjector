@@ -8,8 +8,8 @@ Else it adds a `UnityEngine.PolygonCollider2D`.
 `polygon` defined as a `SFS.Parts.Modules.PolygonData` holds the collider data.
 
 ## Fields summary
-### SFS.Modules.Parts.PolygonCollider
+### SFS.Parts.Modules.PolygonCollider
 Inherits from `SFS.Parts.Modules.ColliderModule`
-| Name | Type | Description | 
+| Name | Type | Description |
 |-|-|-|
 | `polygon` | `SFS.Parts.Modules.PolygonData` | Collider polygon data |
