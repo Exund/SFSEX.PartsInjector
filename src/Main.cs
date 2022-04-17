@@ -10,7 +10,7 @@ namespace SFSEX.PartsInjector
 {
     public class Main : ModLoader.SFSMod
     {
-        public Main() : base("SFSEX.PartsInjector", "Parts Injector", "Exund", "v1.x.x", "v0.0.1", "")
+        public Main() : base("SFSEX.PartsInjector", "Parts Injector", "Exund", "v1.x.x", "v0.0.2", "")
         {
         }
 
