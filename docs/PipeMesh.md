@@ -15,7 +15,7 @@ The data is stored in different fields depending on the value of `textureMode`.
 | `texture` | `Textures.TextureSelector` | `Mode.Basic` |
 | `textures` | `Textures.TextureKey[]` | `Mode.Advanced` |
 
-The mapped width of the texture data is different depending on the vaue of `widthMode` defined as a `Textures.WidthMode`
+The mapped width of the texture data is different depending on the vaue of `widthMode` defined as a `Textures.WidthMode`.
 
 | Width calculation | Value of `textureMode` |
 |-|-|
