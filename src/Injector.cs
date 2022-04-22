@@ -130,6 +130,28 @@ namespace SFSEX.PartsInjector
                     }
                 }
             }
+
+            static class StagingDrawer
+            {
+                [HarmonyPatch(typeof(SFS.World.StagingDrawer), "CanStagePart")]
+                static class CanStagePart
+                {
+                    public static bool Prefix(Part part, bool playDenySound, ref bool __result)
+                    {
+                        UsePartUnityEvent onPartUsed = part.onPartUsed;
+			            bool flag = (((onPartUsed != null) ? onPartUsed.GetPersistentEventCount() : 0) > 0 || onPartUsedHandlers.ContainsKey(part.name)) && !part.HasModule<CannotStageModule>();
+                        
+                        if (!flag && playDenySound)
+                        {
+                            SFS.Audio.SoundPlayer.main.denySound.Play(1f);
+                        }
+
+                        __result = flag;
+
+                        return false;
+                    }
+                }
+            }
         }
     }
 }

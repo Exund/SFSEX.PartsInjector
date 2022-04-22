@@ -177,6 +177,13 @@ namespace Example
             // Register part
             SFSEX.PartsInjector.Injector.RegisterPart(p);
 
+            // Register part with part click handler
+            /*
+            SFSEX.PartsInjector.Injector.RegisterPart(p, (part, usePartData) => {
+                // part is the Part currently being clicked
+                // usePartData is the UsePartData event parameter data 
+            });*/
+
 
             /*
             // Parts can also be created by cloning existing parts
