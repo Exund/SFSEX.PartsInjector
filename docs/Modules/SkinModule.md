@@ -6,11 +6,9 @@
 
 `meshModules` defined as a `SFS.Parts.Modules.PipeMesh[]` holds the `PipeMesh`es affected by the skin changes. The `textureMode` field of the `PipeMesh`es' `textures` needs to be set to `Basic` in order to be affected.
 
-`colorTextureName` defined as a `SFS.Variables.String_Reference` holds a reference to the variable used to define the color texture.
-> It is recommended to point it to a variable named `color_tex` as the vanilla parts do.
+`colorTextureName` defined as a `SFS.Variables.String_Reference` holds a reference to the variable used to define the color texture. It usually references a variable named `color_tex`.
 
-`shapeTextureName` defined as a `SFS.Variables.String_Reference` holds a reference to the variable used to define the shape texture.
-> It is recommended to point it to a variable named `shape_tex` as the vanilla parts do.
+`shapeTextureName` defined as a `SFS.Variables.String_Reference` holds a reference to the variable used to define the shape texture. It usually references a variable named `shape_tex`.
 
 `disableColorSelect` defined as a `bool` determines if the meshes color texture can be changed.
 
